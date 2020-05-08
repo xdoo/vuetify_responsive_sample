@@ -13,9 +13,10 @@
 
     <v-content>
       <v-container>
-      <responsive-font></responsive-font>
-      <responsive-form></responsive-form>
+        <responsive-font></responsive-font>
+        <responsive-form></responsive-form>
       </v-container>
+      <responsive-image></responsive-image>
     </v-content>
   </v-app>
 </template>
@@ -28,12 +29,14 @@ import { Component } from "vue-property-decorator"
 import ResponsiveForm from '@/components/ResponsiveForm.vue'
 import ResponsiveFont from "@/components/ResponsiveFont.vue"
 import ResponsiveActionIcons from "@/components/ResponsiveActionIcons.vue"
+import ResponsiveImage from "@/components/ResponsiveImage.vue"
 
 @Component({
   components: {
     ResponsiveForm,
     ResponsiveFont,
-    ResponsiveActionIcons
+    ResponsiveActionIcons,
+    ResponsiveImage
   }
 })
 export default class App extends Vue {

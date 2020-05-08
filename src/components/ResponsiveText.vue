@@ -11,7 +11,7 @@ import Vue from 'vue'
 import { Component } from "vue-property-decorator"
 
 @Component
-export default class ResponsiveFont extends Vue{
+export default class ResponsiveText extends Vue{
     
 }
 </script>

@@ -60,6 +60,11 @@
           ></v-text-field>
       </v-col>
     </v-row>
+    <v-row>
+      <v-btn>
+        GO!
+      </v-btn>
+    </v-row>
   </v-container>  
 </template>
 <script lang="ts">

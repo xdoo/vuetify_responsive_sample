@@ -5,11 +5,10 @@
       color="black"
       dark
     >
-      <span class="headline">Responsive</span><span class="font-weight-light headline">Sample</span>
+      <h1 class="headline">Responsive</h1><h1 class="font-weight-light headline text-truncate">Sample</h1>
 
       <v-spacer></v-spacer>
-
-      <v-icon title="blubbber...">mdi-flask-outline</v-icon>
+      <responsive-action-icons></responsive-action-icons>
     </v-app-bar>
 
     <v-content>
@@ -24,13 +23,17 @@
 <script lang="ts">
 import Vue from 'vue'
 import { Component } from "vue-property-decorator"
+
+// components
 import Form from '@/components/Form.vue'
 import ResponsiveFont from "@/components/ResponsiveFont.vue"
+import ResponsiveActionIcons from "@/components/ResponsiveActionIcons.vue"
 
 @Component({
   components: {
     Form,
-    ResponsiveFont
+    ResponsiveFont,
+    ResponsiveActionIcons
   }
 })
 export default class App extends Vue {

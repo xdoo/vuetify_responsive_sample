@@ -14,7 +14,7 @@
     <v-content>
       <v-container>
       <responsive-font></responsive-font>
-      <Form></Form>
+      <responsive-form></responsive-form>
       </v-container>
     </v-content>
   </v-app>
@@ -25,13 +25,13 @@ import Vue from 'vue'
 import { Component } from "vue-property-decorator"
 
 // components
-import Form from '@/components/Form.vue'
+import ResponsiveForm from '@/components/ResponsiveForm.vue'
 import ResponsiveFont from "@/components/ResponsiveFont.vue"
 import ResponsiveActionIcons from "@/components/ResponsiveActionIcons.vue"
 
 @Component({
   components: {
-    Form,
+    ResponsiveForm,
     ResponsiveFont,
     ResponsiveActionIcons
   }

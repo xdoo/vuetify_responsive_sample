@@ -14,7 +14,7 @@
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^8.4.1",
-    "vuetify": "^2.2.27"
+    "vuetify": "^2.3.0-beta.3"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.26.0",

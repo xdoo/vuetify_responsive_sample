@@ -36,8 +36,6 @@ import { Component } from "vue-property-decorator"
 
 @Component
 export default class ResponsiveActionIcons extends Vue {
-  
-  fab = false
 
   get shrink() {
     return this.$vuetify.breakpoint.smAndDown
